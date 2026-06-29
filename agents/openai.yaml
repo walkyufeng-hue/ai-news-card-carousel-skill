@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI News Card Carousel"
+  short_description: "Turn AI news into carousel scripts"
+  default_prompt: "Use $ai-news-card-carousel-skill to turn today’s AI news into a Douyin/Xiaohongshu carousel script."

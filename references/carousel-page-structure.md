@@ -6,9 +6,9 @@ Default to 6 pages unless the user requests a different length.
 
 1. Cover
    - Stop the reader with one clear idea.
-   - Include title, subtitle, column label, and small tags.
+   - Include title, subtitle, and 1-2 tags.
 
-2. Myth
+2. Misconception
    - Present the common misunderstanding.
    - Use "你以为 / 其实" contrast.
 
@@ -18,22 +18,30 @@ Default to 6 pages unless the user requests a different length.
 
 4. Breakdown
    - Split the update into 2-3 short points.
-   - Make the copy suitable for bullet layout.
+   - Make the copy suitable for prompt-card blocks.
 
 5. Impact
    - Explain why it matters.
    - Pick the best audience angle.
 
 6. Recap
-   - Summarize with 3-4 small recap cards.
+   - Summarize with 3-4 compact notes.
    - End with a calm final sentence or comment prompt.
+
+Every page should include:
+
+- `品牌标识：YF拾光机`
+- `主标题`
+- `正文`
+- `重点词`
+- `图片说明`
 
 ## Alternative: AI News Quick Read
 
 Use when the user wants a fast news card:
 
 1. What happened.
-2. One sentence explanation.
+2. What changed.
 3. Why it matters.
 4. Who is affected.
 5. What to watch next.
@@ -48,7 +56,7 @@ Use when the topic is a product feature:
 3. Where the feature appears.
 4. Who benefits.
 5. What it signals.
-6. Try-it checklist.
+6. Try-it prompt.
 
 ## Alternative: AI Concept Explainer
 

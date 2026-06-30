@@ -1,47 +1,54 @@
 # Visual Style Guide
 
-This skill does not generate images. It outputs layout and visual directions for manual design.
+This skill can output layout guidance and can render PNG cards through `scripts/render_cards.py`.
 
 ## Canvas
 
-- Primary: 9:16, suitable for Douyin image posts.
-- Compatible: 3:4, suitable for Xiaohongshu.
-- Keep important text away from edges and platform UI areas.
+- Default size: `1080x1440` pixels.
+- Ratio: `3:4`.
+- Intended use: Xiaohongshu image posts first, also usable in Douyin image posts.
+- Keep all important text inside a safe margin of at least 90 px.
 
-## Background
+## Brand Placement
 
-- Use off-white, warm white, or light gray-white.
-- Add a very subtle dot-grid texture.
-- Avoid high-contrast patterns or decorative backgrounds.
+- Show `YF拾光机` at the top-left of every page.
+- Keep page number such as `1/6` or `2/6` at the bottom-right.
+- Do not include footer text such as `适合抖音图文 · 小红书笔记`.
 
-## Color
+## Default Look
 
-- Main accent: deep green.
-- Text: black or dark gray.
-- Secondary: light gray lines, labels, and separators.
-- Avoid one-note saturated palettes and heavy gradients.
+Use a dark AI prompt-card style:
 
-## Typography Feel
-
-- Modern, clean, restrained.
-- Large page titles.
-- Short supporting copy.
-- Small English column labels such as THE MYTH, THE IMPACT, RECAP.
+- Background: near-black with subtle dark green depth.
+- Panels: translucent black or charcoal blocks.
+- Border: thin dark-green or low-opacity green lines.
+- Accent: neon/deep green.
+- Text: off-white for titles, muted gray for explanations.
+- Tags: small rounded dark chips with green icon/outline.
+- Decoration: sparse, technical, restrained.
 
 ## Layout
 
-- One page, one idea.
-- Use generous whitespace.
-- Highlight only 1-3 key terms per page.
-- Put key terms in deep green or with a thin underline.
-- Avoid complex illustrations.
-- Avoid busy sticker-like decoration.
+- Top: brand label and small page metadata.
+- Main title: large, white, placed in the upper third.
+- Content: one or two bordered prompt-like panels.
+- Tags: 2-4 chips near the lower content area.
+- Page number: bottom-right.
 
 ## Page-Level Guidance
 
-- Cover: strongest title, minimal supporting copy, clear column label.
-- Myth: two-column or stacked "你以为 / 其实" contrast.
-- Metaphor: one large analogy sentence plus a small explanation.
-- Breakdown: 2-3 aligned bullet blocks.
-- Impact: one main statement plus audience-specific note.
-- Recap: 3-4 mini cards and a final line.
+- Cover: large title, short subtitle, one or two accent chips.
+- Misconception: contrast block with "你以为 / 其实".
+- Metaphor: one prompt-like explanation block.
+- Breakdown: 2-3 numbered cards or rows.
+- Impact: one big statement plus compact support text.
+- Recap: 3 small recap chips/cards plus final summary block.
+
+## Avoid
+
+- Light paper style as the default.
+- Large footer platform descriptions.
+- Busy illustrations.
+- Too many emojis.
+- Dense paragraphs.
+- More than 4 tags on one page.
